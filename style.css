@@ -1,0 +1,253 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    min-height: 80vh;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.banner-head {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.banner-text {
+    width: 550px;
+}
+
+.banner-img {
+    width: 450px;
+}
+
+.banner-container {
+    background-color: #e554731a;
+    padding-top: 40px;
+
+}
+
+.banner-subhead {
+    color: #27272799;
+}
+
+.banner-btn {
+    background-color: #E55473;
+    padding: 16px 25px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+}
+
+.feature-txt {
+    width: 40%;
+    margin: 50px auto;
+    text-align-last: center;
+}
+
+.feature-head {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.feature-subhead {
+    color: #27272799;
+}
+
+.featured-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.feature-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-img {
+    width: 280px;
+    padding: 50px;
+    height: 350px;
+
+}
+
+.box {
+    background-color: #e554736d;
+    border-radius: 200px 200px 0 0;
+}
+
+.flower-name {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    bottom: -70px;
+    font-weight: 700;
+}
+
+.features {
+    margin-top: 200px;
+    height: 280px;
+    background-color: #2727270d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feature-card-container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.sale {
+    margin-bottom: 100px;
+    background-color: #f08ea331;
+
+}
+
+.sale-head {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.off {
+    color: #e55473;
+}
+
+.sale-text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sale-img {
+    width: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sale-subhead {
+    margin: 20px 0;
+    color: #27272799;
+    width: 50%;
+}
+
+.sale-img>img {
+    width: 250px;
+}
+
+.sale-box {
+    display: flex;
+    padding: 50px 0;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-head{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.social{
+    text-align: center;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.social-subhead{
+    width: 50%;
+    margin: 20px auto;
+    color: #27272799;
+}
+
+.social-card{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.latest{
+    background-image: url(Rectangle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1200px;
+    margin: 80px auto;
+    height: 350px;
+}
+
+.inner{
+    padding: 100px;
+}
+
+.inner-sub-head{
+    color: #27272799;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.input{
+    color: #27272799;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.input-box{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.footer-name{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+footer{
+    background-color: black;
+    padding: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-sub-head{
+    color: rgba(255, 255, 255, 0.655);
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.copy{
+    color: rgba(255, 255, 255, 0.863);
+}
